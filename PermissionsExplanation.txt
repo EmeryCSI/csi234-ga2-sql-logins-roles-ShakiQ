@@ -1,0 +1,20 @@
+1. 
+SELECT: It allows a user to read or view data from a table. They can retrieve information but can't change or delete anything.
+INSERT: The user can add new data into a table. It's like giving them permission to input new records.
+UPDATE: It makes the user change existing data. They can modify or correct the information that’s already in the table.
+DELETE: This permission allows a user to remove data from a table. Once it's deleted, it's gone.
+
+
+2. 
+Schema-Level Permissions:If a user gets permission at the schema level, they have access to all the tables and objects within that folder.
+Table-Level Permissions: Permissions are granted for individual tables, so users can access only the tables they need within a schema, not everything else.
+
+
+3. These permissions let you control access to specific columns in a table. It is useful when you need to limit access to sensitive or confidential data.
+
+
+4. This principle means you give users the smallest amount of access they need to do their job, nothing more. In this setup, you apply it by making sure users only have permissions for the specific actions (like reading or writing data) that are essential for their role, and no unnecessary extras that could cause security risks.
+
+
+5. Instead of assigning permissions directly to individual users, you group users into roles (like “Manager” or “Salesperson”) and assign permissions to the roles. This makes managing permissions easier and more secure.
+Roles also make it easier to update permissions—just update the role, and all users in that role get the updated permissions. Plus, it reduces the risk of mistakes when giving out access.
